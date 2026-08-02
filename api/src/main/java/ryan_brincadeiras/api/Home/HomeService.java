@@ -8,4 +8,8 @@ public class HomeService {
     public String sayHello() {
         return "Hello, Ryan!";
     }
+
+    public String sayMyName(String name) {
+        return "Your name is " + name + "!";
+    }
 }
